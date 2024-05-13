@@ -7,8 +7,9 @@ import (
 func RegisterRoutes(engine *gin.Engine) {
 	api := engine.Group("/api/v1")
 	{
-		initUserHandler(api)
+		initAuthHandler(api)
 		initHealthHandler(api)
 		initTestHandler(api)
+		initUserHandler(api)
 	}
 }
