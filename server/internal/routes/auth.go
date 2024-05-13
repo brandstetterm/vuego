@@ -22,14 +22,11 @@ func initAuthHandler(router *gin.RouterGroup, middlewares ...gin.HandlerFunc) {
 
 func (impl implAuth) login(ctx *gin.Context) {
 	ctx.Status(http.StatusNotImplemented)
-	return
 }
 func (impl implAuth) register(ctx *gin.Context) {
 	ctx.Status(http.StatusNotImplemented)
-	return
 }
 func (impl implAuth) logout(ctx *gin.Context) {
 	ctx.Status(http.StatusNotImplemented)
-	return
 }
 

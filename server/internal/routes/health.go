@@ -20,5 +20,4 @@ func initHealthHandler(router *gin.RouterGroup, middlewares ...gin.HandlerFunc) 
 
 func (_ implHealth) getHealthStatus(ctx *gin.Context) {
 	ctx.String(http.StatusOK, "Healthy")
-	return
 }

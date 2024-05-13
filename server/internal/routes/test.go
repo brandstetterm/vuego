@@ -32,13 +32,11 @@ func (impl implTest) receiveMessage(ctx *gin.Context) {
 			"msg": "Nothing in the buffer for you",
 		})
 	}
-	return
 }
 
 func (impl implTest) sendMessage(ctx *gin.Context) {
 	msg := ctx.Param("msg")
 	impl.c <- msg
 	ctx.Status(http.StatusOK)
-	return
 }
 

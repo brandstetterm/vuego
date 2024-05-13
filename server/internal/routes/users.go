@@ -24,21 +24,16 @@ func initUserHandler(router *gin.RouterGroup, middlewares ...gin.HandlerFunc) {
 
 func (_ userHandler) getUsers(ctx *gin.Context) {
 	ctx.Status(http.StatusNotImplemented)
-	return
 }
 func (_ userHandler) createUser(ctx *gin.Context) {
 	ctx.Status(http.StatusNotImplemented)
-	return
 }
 func (_ userHandler) getUser(ctx *gin.Context) {
 	ctx.Status(http.StatusNotImplemented)
-	return
 }
 func (_ userHandler) updateUser(ctx *gin.Context) {
 	ctx.Status(http.StatusNotImplemented)
-	return
 }
 func (_ userHandler) deleteUser(ctx *gin.Context) {
 	ctx.Status(http.StatusNotImplemented)
-	return
 }
